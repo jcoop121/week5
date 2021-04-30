@@ -38,7 +38,7 @@ rollButton.addEventListener(`click`, async function(event) {
 
   // - Grab the value of the player name element and store the player's name in memory
   let playerName = playerNameInput.value
-
+  console.log(playerName)
   // - Make sure the player's name is filled out; if it is:
   if (playerName.length > 0) {  
     // - Form a sentence in memory, containing the player's name and the total that was rolled
